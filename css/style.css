@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.wrapper-box {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aquamarine;
+}
+
+.api-users {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 5px;
+    color: blueviolet;
+}
+
+
